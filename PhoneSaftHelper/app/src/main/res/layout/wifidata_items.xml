@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/data_app_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_lbe_whitelist"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/data_app_icon"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/data_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"/>
+        <TextView
+            android:id="@+id/data_app_allSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总量"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/wifiPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/desktop_window_wifi_icon"/>
+    <ImageView
+        android:id="@+id/dataPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数据总量"
+        android:layout_toLeftOf="@id/wifiPic"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/desktop_window_traffic_icon"/>
+
+</RelativeLayout>

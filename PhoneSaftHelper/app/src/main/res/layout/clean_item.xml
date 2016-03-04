@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_lbe_whitelist"/>
+        <TextView
+            android:id="@+id/cacheName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="淘宝"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivIcon"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/cacheSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="app缓存"
+            android:textColor="#aaa"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

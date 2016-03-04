@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:id="@+id/cleanTopColor"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/green">
+        <TextView
+            android:id="@+id/totalCacheSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="40sp"
+            android:text="等待获取缓存"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/totalCacheSize"
+            android:text="建议清理"
+            android:layout_alignBottom="@id/totalCacheSize"
+            android:textColor="#eee"/>
+    </RelativeLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cleanTopColor"
+
+        android:orientation="vertical"
+        android:padding="5dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取缓存"
+            android:onClick="getCacheSize"
+            android:textColor="#000"/>
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc"
+            android:layout_marginTop="5dp"/>
+        <ListView
+            android:id="@+id/cacheListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </ListView>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClean"
+        android:text="一键清理"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
+

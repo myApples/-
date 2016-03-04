@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">安全大师</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+    <string name="title_activity_speed_up">SpeedUpActivity</string>
+    <string name="title_activity_task_managment">TaskManagmentActivity</string>
+    <string name="title_activity_core_service">CoreService</string>
+    <string name="title_activity_interception">InterceptionActivity</string>
+    <string name="title_activity_black_list">BlackListActivity</string>
+    <string name="title_activity_from_list_men">FromListMenActivity</string>
+    <string name="title_activity_clean_rubbish">CleanRubbishActivity</string>
+    <string name="title_activity_uninatall">UninatallActivity</string>
+    <string name="title_activity_data_manager">DataManagerActivity</string>
+    <string name="title_activity_data_show">DataShowActivity</string>
+
+    <string name="cur_interval">更新间隔时间：%1$s秒</string>
+
+    <string name="invalid_network">未连接网络</string>
+
+    <string name="_3g_above">高速网络（3G、4G）</string>
+
+    <string name="_2g">普通网络（GPRS）</string>
+
+    <string name="wap">wap</string>
+
+    <string name="wifi">Wi-Fi</string>
+    <string name="cur_type">当前正在使用：%1$s</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+</resources>

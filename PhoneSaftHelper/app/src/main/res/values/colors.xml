@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="focused_color_true">#ccc</color>
+    <color name="focused_color_normal">#fff</color>
+    <color name="toast_bg">#c01b1b1b</color>
+    <color name="toast_text">#f7dcaf</color>
+</resources>

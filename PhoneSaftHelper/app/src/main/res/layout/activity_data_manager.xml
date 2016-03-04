@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <RelativeLayout
+       android:id="@+id/wifiData"
+       android:layout_width="match_parent"
+       android:layout_height="65dp"
+       android:background="#DCFAEF">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="联网软件"
+           android:textColor="#000000"
+           android:textSize="20sp"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="5dp"/>
+       <TextView
+           android:id="@+id/bigWifi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="WiFi"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="5dp"
+           android:drawableTop="@drawable/desktop_window_wifi_icon"
+           android:textColor="#00ff00"
+           android:gravity="center"
+           />
+       <TextView
+           android:id="@+id/bigData"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toLeftOf="@id/bigWifi"
+
+           android:text="数据"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="5dp"
+           android:drawableTop="@drawable/desktop_window_traffic_icon"
+           android:textColor="#00ff00"
+           android:gravity="center"
+           />
+
+
+   </RelativeLayout>
+
+    <ListView
+        android:id="@+id/wifiDataListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/wifiData"
+        android:cacheColorHint="#00ffffff"
+
+        android:fadingEdge="none"
+        android:dividerHeight="0.5dp">
+
+    </ListView>
+
+</RelativeLayout>

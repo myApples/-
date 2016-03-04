@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/promap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="所有软件"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/promap">
+        <ListView
+            android:id="@+id/uninatallListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="1dp"
+            android:divider="#ccc"
+            android:background="#fff"
+            android:footerDividersEnabled="true"
+            android:scrollbars="none">
+        </ListView>
+        <RelativeLayout
+            android:id="@+id/progressCon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+            <com.jredu.com.view.RoundProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:layout_centerInParent="true"
+                android_custom:roundColor="#fff"
+                android_custom:roundProgressColor="#f00"
+                android_custom:roundWidth="10dip"
+                android_custom:textColor="#9cf"
+                android_custom:textSize="18sp"  >
+                </com.jredu.com.view.RoundProgressBar>
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

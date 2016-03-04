@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#005555"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/biz_navigation_tab_pc"
+        android:layout_centerVertical="true"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/pic"
+        android:layout_alignBottom="@+id/pic"
+        android:layout_alignTop="@+id/pic"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textSize="18sp"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备份还原设置项"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/avl_arrow_right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/firstPager"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rel_background">
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_phone_optimize_normal"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img6"
+            android:layout_marginLeft="5dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <RelativeLayout
+
+        android:id="@+id/defaults"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rel_background">
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_security_privacy_normal"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主动防御"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img7"
+            android:layout_marginLeft="5dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <RelativeLayout
+
+        android:id="@+id/softbox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rel_background">
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_security_privacy_normal"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安全沙箱"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img8"
+            android:layout_marginLeft="5dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+
+    <RelativeLayout
+
+        android:id="@+id/lanjie"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rel_background">
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_security_privacy_normal"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="骚扰拦截"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img9"
+            android:layout_marginLeft="5dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <RelativeLayout
+
+        android:id="@+id/morePower"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/rel_background">
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_security_privacy_normal"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更多功能"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img10"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/tips_select"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+
+
+
+</LinearLayout>

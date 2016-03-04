@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choss_list">
+        <item>从联系人添加</item>
+        <item>从通话记录添加</item>
+        <item>从短信记录添加</item>
+        <item>手动输入号码</item>
+
+    </string-array>
+
+
+</resources>
